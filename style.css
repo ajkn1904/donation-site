@@ -2,6 +2,10 @@
         margin: 0%;
     }
     
+    body {
+        font-family: 'Mulish', sans-serif;
+    }
+    
     section {
         padding-bottom: 2px;
     }
@@ -31,7 +35,6 @@
     
     #header p {
         font-size: 15px;
-        font-family: monospace;
         width: 40%;
         padding-left: 30%;
         padding-bottom: 2%;
@@ -59,7 +62,6 @@
     
     #donate-today p {
         font-size: 15px;
-        font-family: monospace;
         width: 40%;
         padding-left: 30%;
         padding-bottom: 2%;
@@ -102,22 +104,21 @@
     
     #donate-plan p {
         font-size: 15px;
-        font-family: monospace;
         width: 40%;
         padding-left: 30%;
         padding-bottom: 2%;
-        font-family: monospace;
     }
     
     #donate-plan-units {
         display: flex;
         margin: 20px 150px;
+        font-family: monospace;
     }
     
     #food-unit {
         background-image: url(icons/icon8.svg);
         background-repeat: no-repeat;
-        background-color: aquamarine;
+        background-color: rgba(127, 255, 212, 0.748);
         background-position: 30px top;
         background-size: 50px;
         text-align: left;
@@ -146,6 +147,20 @@
         background-image: url(icons/icon5.svg);
         background-repeat: no-repeat;
         background-color: bisque;
+        background-size: 45px;
+        text-align: left;
+        margin: 0px 10px;
+        padding: 80px 30px;
+        background-position: 30px top;
+        width: 50%;
+        border-radius: 10px;
+        background-position-y: 20px;
+    }
+    
+    #blood-unit {
+        background-image: url(icons/blood.svg);
+        background-repeat: no-repeat;
+        background-color: rgba(205, 92, 92, 0.703);
         background-size: 45px;
         text-align: left;
         margin: 0px 10px;
@@ -191,10 +206,14 @@
     footer {
         margin-top: 20px;
         text-align: center;
-        background-color: darkslategray;
-        height: 50px;
+        background-color: rgb(29, 50, 50);
+        height: 40px;
         padding: 30px;
         color: white;
+    }
+    
+    footer h3 {
+        color: mediumpurple;
     }
     
     footer p {
