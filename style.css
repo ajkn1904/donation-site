@@ -37,7 +37,7 @@
         padding-bottom: 2%;
     }
     
-    button {
+    #header button {
         padding: 10px 40px;
         background-color: olivedrab;
         font-size: 15px;
@@ -84,6 +84,16 @@
         margin-bottom: 50px;
         border-radius: 10px;
         font-weight: 700;
+    }
+    
+    #donate-today button {
+        padding: 10px 40px;
+        background-color: olivedrab;
+        font-size: 15px;
+        box-shadow: 10px 10px 15px black;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
     }
     
     #donate-plan {
@@ -144,4 +154,36 @@
         width: 50%;
         border-radius: 10px;
         background-position-y: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #get-my-update {
+        text-align: center;
+    }
+    
+    #get-my-update-contact {
+        padding: 70px;
+        background-color: cornsilk;
+        margin: 30px 200px;
+    }
+    
+    #email {
+        background-color: darkgray;
+        width: 50%;
+        border-radius: 5px;
+        padding: 10px 40px;
+        text-align: left;
+    }
+    
+    #subscribe-button {
+        padding: 10px 40px;
+        background-color: olivedrab;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        width: 20%;
     }
