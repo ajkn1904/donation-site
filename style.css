@@ -3,7 +3,7 @@
     }
     
     section {
-        padding-bottom: 10px;
+        padding-bottom: 2px;
     }
     
     #header {
@@ -29,7 +29,7 @@
         padding-bottom: 2%;
     }
     
-    p {
+    #header p {
         font-size: 15px;
         font-family: monospace;
         width: 40%;
@@ -47,14 +47,22 @@
         font-weight: 600;
     }
     
-    #donate-today h1 {
-        padding-top: 150px;
+    h1 {
+        padding-top: 100px;
         font-size: 40px;
         padding-bottom: 2%;
     }
     
     #donate-today {
         text-align: center;
+    }
+    
+    #donate-today p {
+        font-size: 15px;
+        font-family: monospace;
+        width: 40%;
+        padding-left: 30%;
+        padding-bottom: 2%;
     }
     
     #input-amount {
@@ -69,10 +77,71 @@
         display: inline-block;
         background-color: rgba(128, 128, 128, 0.131);
         width: 100px;
-        padding: 35px 0px;
+        padding: 35px 2px;
         margin: 3px;
         color: rgba(0, 0, 0, 0.748);
         margin-top: 30px;
         margin-bottom: 50px;
         border-radius: 10px;
+        font-weight: 700;
+    }
+    
+    #donate-plan {
+        text-align: center;
+    }
+    
+    #donate-plan p {
+        font-size: 15px;
+        font-family: monospace;
+        width: 40%;
+        padding-left: 30%;
+        padding-bottom: 2%;
+        font-family: monospace;
+    }
+    
+    #donate-plan-units {
+        display: flex;
+        margin: 20px 150px;
+    }
+    
+    #food-unit {
+        background-image: url(icons/icon8.svg);
+        background-repeat: no-repeat;
+        background-color: aquamarine;
+        background-position: 30px top;
+        background-size: 50px;
+        text-align: left;
+        margin: 0px 10px;
+        padding: 80px 30px;
+        width: 50%;
+        border-radius: 10px;
+        background-position-y: 20px;
+    }
+    
+    #shelter-unit {
+        background-image: url(icons/icon9.svg);
+        background-repeat: no-repeat;
+        background-color: lightblue;
+        background-size: 45px;
+        text-align: left;
+        margin: 0px 10px;
+        padding: 80px 30px;
+        background-position: 30px top;
+        width: 50%;
+        border-radius: 10px;
+        background-position-y: 20px;
+    }
+    
+    #education-unit {
+        background-image: url(icons/icon5.svg);
+        background-repeat: no-repeat;
+        background-color: bisque;
+        background-size: 45px;
+        text-align: left;
+        margin: 0px 10px;
+        padding: 80px 30px;
+        background-position: 30px top;
+        width: 50%;
+        border-radius: 10px;
+        background-position-y: 20px;
     }
